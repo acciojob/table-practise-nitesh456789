@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+/* Table background and general border requirement */
+#student-table {
+    background-color: yellow;
+    border-collapse: collapse; /* Ensures borders don't double up */
+    border: 1px solid black;
+}
+
+/* Applying 1px solid black border to table, th, tr, and td as requested */
+#student-table, 
+#student-table th, 
+#student-table tr, 
+#student-table td {
+    border: 1px solid black;
+}
+
+/* Optional: Adding some padding for better readability like the preview */
+th, td {
+    padding: 5px;
+    text-align: left;
+}
